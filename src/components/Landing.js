@@ -1,15 +1,19 @@
 import React from "react";
-import Header from "./header";
-import Home from "./home";
-import Work from "./Work";
-import Contact from "./Contact";
+import Header from "./Header";
+import Nav from "./Nav";
 
-import data from "./yourdata";
+// import Home from "./home";
+// import Work from "./Work";
+// import Contact from "./Contact";
+
+// import data from "./yourdata";
 
 const Landing = () => {
   return (
     <div>
-      <Header name={data.name} contactEmail={data.contactEmail}></Header>
+      <Header />
+      <Nav />
+
       {/* <Home
         name={data.landingPageName}
         paragraph={data.landingPagePara}
