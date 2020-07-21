@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import Nav from "./Nav";
+import Section from "./Section";
 
 // import Home from "./home";
 // import Work from "./Work";
@@ -10,9 +11,10 @@ import Nav from "./Nav";
 
 const Landing = () => {
   return (
-    <div>
+    <div style={{ backgroundColor: "#000" }}>
       <Header />
       <Nav />
+      <Section />
 
       {/* <Home
         name={data.landingPageName}
