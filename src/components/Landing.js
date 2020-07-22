@@ -11,7 +11,7 @@ import Section from "./Section";
 
 const Landing = () => {
   return (
-    <div style={{ backgroundColor: "#000" }}>
+    <div>
       <Header />
       <Nav />
       <Section />
